@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!---------------->
+    <!---- Header ---->
+    <!---------------->
+    <header class="header">
+        <div class="social-media">
+            <a href="https://www.instagram.com/eliibaque/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Elianfernandobaque/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/elian-baque-040a651b8/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="header-logo">
+            <img class="logo" src="img/header.png" />
+            <h1>videojuegos</h1>
+        </div>
+        <div class="header-contact">
+            <a href="#contacto">¡Contáctanos!</a>
+        </div>
+    </header>
+    <!---------------->
+    <!----- Nav ------>
+    <!---------------->
+    <nav class="barra">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#juegos">Juegos</a></li>
+            <li><a href="#Nosotros">Acerca de nosotros</a></li>
+            <li><a href="juegos.html">Mas Juegos</a></li>
+        </ul>
+    </nav>
+    <!------------------>
+    <!----- Slider ----->
+    <!------------------>
+    <section class="slider">
+        <img src="img/link.jpg" />
+    </section>
+    <!------------------------>
+    <!----- Juegos Cards ----->
+    <!------------------------>
+    <section class="game-section" id="juegos">
+        <h2>Variedad de juegos</h2>
+        <div class="game-container">
+        </div>
+        <h3><a href="juegos.html">Juegos por Categoria</a></h3>
+    </section>
+    <!-------------------------->
+    <!----- Acerca de Nosotros ----->
+    <!-------------------------->
+    <section class="nosotros-section" id="Nosotros">
+        <h2>Porque Empeze a Programar</h2>
+        <p>En 2017 empeze mi camino en la programacion en un curso de HTML/CSS/Boostrap.
+            Desde entonces segui estudiando, aprendiendo Python/Django y Javascript.
+        </p>
+    </section>
+    <!----------------------->
+    <!----- Formulario ------>
+    <!----------------------->
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p>Sus preguntas, ideas y comentarios son siempre bienvenidos. ¡Escríbeme!</p>
+        <div>
+            <form class="contacto-form" action="">
+                <label for="nombre">Nombre</label>
+                <br />
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre..." />
+                <br />
+                <label for="apellido">Apellido</label>
+                <br />
+                <input type="text" id="apellido" placeholder="Ingresa tu apellido..." />
+                <br />
+                <label for="email">Correo electrónico</label>
+                <br />
+                <input type="email" id="email" placeholder="Ingresa tu correo electrónico" />
+                <br />
+                <label for="telefono">Número de teléfono</label>
+                <br />
+                <input type="number" id="telefono" placeholder="Ingresa tu número de teléfono" />
+                <br />
+                <label for="mensaje">Ingresa aquí tu mensaje</label>
+                <br />
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje..."></textarea>
+                <br />
+                <button>Enviar</button>
+            </form>
+        </div>
+    </section>
+    <!------------------>
+    <!----- Footer ----->
+    <!------------------>
+    <footer class="footer">
+        <div class="social-footer">
+            <a href="https://www.instagram.com/eliibaque/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Elianfernandobaque/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/elian-baque-040a651b8/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>Copyright © 2021, todos los derechos reservados.</p>
+    </footer>
+    <!--Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/06c261de21.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

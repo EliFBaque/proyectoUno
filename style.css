@@ -1,0 +1,368 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+/************************************************************************************************************************/
+/******************************************************** HEADER  *******************************************************/
+/************************************************************************************************************************/
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/************************************************************************************************************************/
+/**************************************************** HEADER - LOGO *****************************************************/
+/************************************************************************************************************************/
+.header-logo {
+    width: 33%;
+    text-align: center;
+}
+.header-logo h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.logo {
+    width: 50%;
+}
+
+/* Header - Social */
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+}
+.social-media i {
+    color: #8f8c8c;
+    font-size: 20px;
+    transition: color 0.25s;
+}
+.social-media i:hover {
+    color: #000;
+}
+
+/************************************************************************************************************************/
+/**************************************************** HEADER - CONTACT **************************************************/
+/************************************************************************************************************************/
+
+.header-contact a {
+    color: #8f8c8c;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: color 0.25s;
+}
+.header-contact a:hover {
+    color: #000;
+}
+
+/************************************************************************************************************************/
+/********************************************************* NAV **********************************************************/
+/************************************************************************************************************************/
+.barra {
+    margin: 30px 0;
+}
+.barra ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.barra li {
+    list-style: none;
+}
+.barra a {
+    text-decoration: none;
+    color: #8f8c8c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: color 0.25s;
+}
+.barra a:hover {
+    color: #000;
+}
+
+/************************************************************************************************************************/
+/******************************************************** SLIDER ********************************************************/
+/************************************************************************************************************************/
+
+.slider {
+    background-color: #f1e2e2;
+}
+.slider img {
+    width: 100%;
+}
+
+/* JUEGOS */
+.game-section {
+    background-color: #f1e2e2;
+    padding: 40px;
+}
+.game-section h2 {
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+    padding: 60px 0;
+    margin: 0;
+}
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.game-card {
+    margin: 15px;
+    width: 25%;
+    font-size: 13px;
+    text-align: center;
+    background-color:  #73c3ab;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(182, 182, 182, 1.5);
+    transition: transform 0.5s;
+}
+.game-card:hover {
+    box-shadow: 0px 10px 15px 5px rgba(182, 182, 182, 1.5);
+    transform: translateY(-10px);
+}
+.img-game-section {
+    max-width: 100%;
+}
+.game-section h3 {
+    padding: 34px 0;
+    text-align: center;
+}
+.game-section a {
+    text-decoration: none;
+    transition: 1s;
+}
+
+.game-section h3 a{
+    color: #8f8c8c;
+}
+
+.game-section h3 a:hover{
+    color: #000;
+}
+
+/************************************************************************************************************************/
+/********************************************************** NOSOTROS ****************************************************/
+/************************************************************************************************************************/
+
+.nosotros-section {
+    height: 400px;
+    padding-top: 10px;
+    text-align: center;
+    color: #000;
+}
+.nosotros-section h2 {
+    font-size: 46px;
+}
+.nosotros-section p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 60px;
+    letter-spacing: 3px;
+}
+
+/************************************************************************************************************************/
+/********************************************************* FOOTER *******************************************************/
+/************************************************************************************************************************/
+.footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+.social-footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 15px;
+}
+.social-footer i {
+    color: #3d4547;
+    font-size: 20px;
+}
+.footer p {
+    padding: 15px;
+}
+.footer a {
+    padding: 15px;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/************************************************************************************************************************/
+/********************************************************* CONTACTO *****************************************************/
+/************************************************************************************************************************/
+.contacto {
+    background-color:#73c3ab;
+    padding: 50px;
+    text-align: center;
+}
+.contacto h2 {
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.contacto p {
+    padding-bottom: 20px;
+}
+.contacto-form label {
+    margin: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.contacto-form input {
+    margin: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 50%;
+}
+.contacto-form textarea {
+    margin: 10px 20px;
+    border: none;
+    width: 50%;
+}
+.contacto-form button {
+    width: 50%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 15px;
+    color: #8b8a8a;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contacto-form button:hover {
+    color: black;
+    transition: color 1s;
+}
+
+/************************************************************************************************************************/
+/********************************************************* MEDIA ********************************************************/
+/************************************************************************************************************************/
+
+@media (max-width: 760px) {
+    /* HEADER */
+    .header {
+        flex-direction: column-reverse;
+    }
+    .header-logo {
+        margin-bottom: 15px;
+    }
+    .header-contact {
+        display: none;
+    }
+    /* HEADER */
+    .header-logo {
+        width: 100%;
+    }
+    .social-media {
+        display: none;
+    }
+    /* JUEGOS HOME */
+    .game-card {
+        width: 100%;
+    }
+    .juegos-page-container {
+        flex-direction: column;
+    }
+    .menu {
+        width: 100%;
+    }
+    /* NAV */
+    .barra ul {
+        padding: 0;
+        flex-direction: column;
+    }
+    /* JUEGOS */
+    .game-card {
+        width: 100%;
+    }
+    /* CONTACTO */
+    .contacto-form input {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .contacto-form textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .contacto-form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    /* JUEGOS */
+    .game-card {
+        margin: 15px 0;
+    }
+
+    /* NOSOTROS */
+    .nosotros-section h2 {
+        font-size: 30px;
+    }
+    .nosotros-section p {
+        font-size: 15px;
+    }
+}
+
+/************************************************************************************************************************/
+/****************************************************** GALERIA JUEGOS **************************************************/
+/************************************************************************************************************************/
+
+.juegos-page-container {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1e2e2;
+}
+
+/************************************************************************************************************************/
+/********************************************************* MENÚ *********************************************************/
+/************************************************************************************************************************/
+.menu {
+    text-align: center;
+    width: 90%;
+}
+.menu h3 {
+    border-top: 3px solid #73c3ab ;
+    text-transform: uppercase;
+    border-bottom: 1px solid #73c3ab ;
+    padding: 20px;
+}
+.menu ul {
+    padding: 0;
+}
+.menu li {
+    list-style: none;
+    text-transform: uppercase;
+}
+.menu a {
+    text-decoration: none;
+    color: #000;
+}
+.menu a:hover {
+    color: #73c3ab;
+}
+/************************************************************************************************************************/
+/********************************************************* GALERÍA ******************************************************/
+/************************************************************************************************************************/
+.galeria-game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
